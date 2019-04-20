@@ -1,0 +1,6 @@
+numpy==1.16.2
+Flask==1.0.2
+schedule==0.6.0
+APScheduler==3.6.0
+scipy==1.2.1
+psycopg2==2.7.6.1

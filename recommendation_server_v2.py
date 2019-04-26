@@ -168,6 +168,7 @@ def refresh_recommendations():
 	# DEBUGGING ONLY! - return jsonify({'success_code': 1, 'message': "", 'payload': "" })
 
 
+# Called periodically to update list of popular movies per week
 def weekly_movie_refresh():
 
 	global MOVIE_ID_TO_INDEX_MAP, INDEX_TO_MOVIE_ID_MAP
@@ -214,13 +215,15 @@ if __name__ == '__main__':
 
 	weekly_movie_refresh()
 
+	# Starts periodic background task for refreshing list of popular movies
+	# Occurs every week
 	weekly_movie_update_task = BackgroundScheduler()
 	weekly_movie_update_task.add_job(func=weekly_movie_refresh, trigger="interval", seconds=604800)
 	print("Started scheduler for weekly movie updates")
 	weekly_movie_update_task.start()
 
-	# Starts period background task for refreshing recommendations.
-	# Occurs every 5 seconds
+	# Starts periodic background task for refreshing recommendations.
+	# Occurs every day
 	recommendation_update_task = BackgroundScheduler()
 	recommendation_update_task.add_job(func=refresh_recommendations, trigger="interval", seconds=86400)
 	print("Started scheduler for updating recommendations")

@@ -1,0 +1,2930 @@
+GET http://<IP>:8000
+
+Hello! This is the Recommendation server and it is a pleasure to meet you!
+
+---
+
+GET http://<IP>:8000/ratings?user_id=0
+
+{
+    "message": "",
+    "payload": [
+        {
+            "movie_id": 456740,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 287947,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 537915,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 299537,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 166428,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 495925,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 299536,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 458723,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 424783,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 329996,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 522681,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 480414,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 284054,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 324857,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 543103,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 464504,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 390634,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 283995,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 297802,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 411728,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 920,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 504172,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 458253,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 454294,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 375588,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 118340,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 263115,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 404368,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 157433,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 99861,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 500682,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 438650,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 363088,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 400650,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 137113,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 284053,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 442249,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 376865,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 347375,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 335983,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 399361,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 527641,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 480530,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 271110,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 426563,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 280217,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 508763,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 120,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 102899,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 576071,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 627,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 671,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 11,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 487558,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 339380,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 351286,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 245891,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 1726,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 332562,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 181808,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 361292,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 454983,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 566555,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 450001,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 463684,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 429197,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 400157,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 490132,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 500904,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 514439,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 10195,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 489925,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 155,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 12445,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 339877,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 1585,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 500852,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 308504,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 298250,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 260513,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 438799,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 157336,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 527261,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 27205,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 156022,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 335984,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 443055,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 562,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 483906,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 440161,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 460019,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 270010,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 293660,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 287948,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 238636,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 429300,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 378236,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 266396,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 567604,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 123025,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 244506,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 429351,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 2623,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 369972,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 466282,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 289222,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 263109,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 1771,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 429471,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 316152,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 468339,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 327331,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 532321,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 390062,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 353081,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 4922,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 12103,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 11024,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 527729,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 340676,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 284052,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 353616,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 439079,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 381288,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 182560,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 209112,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 76617,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 135397,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 1116,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 5336,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 11430,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 526050,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 353326,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 145247,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 13186,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 301351,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 19995,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 399402,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 10138,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 2320,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 11451,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 574,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 345887,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 207768,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 177494,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 396806,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 221902,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 140607,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 10587,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 291805,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 87101,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 593691,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 54318,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 245698,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 246080,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 86597,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 403119,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 452832,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 309886,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 369192,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 10199,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 250734,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 2019,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 314405,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 41439,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 88273,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 243683,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 157845,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 333339,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 2749,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 11976,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 5902,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 9741,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 2614,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 157847,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 9992,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 11565,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 345940,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 293310,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 49026,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 304357,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 484247,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 844,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 290751,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 405774,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 11932,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 210577,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 119450,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 338189,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 13474,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 424139,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 226857,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 11418,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 127585,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 13416,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 3525,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 260346,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 346910,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 272,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 433808,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 252178,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 265189,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 127560,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 77663,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 9425,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 4176,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 374475,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 11128,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 198375,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 315664,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 337167,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 24122,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 449563,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 80038,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 2312,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 586347,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 10320,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 10052,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 400535,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 269149,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 12118,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 12246,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 603,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 11319,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 1724,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 223485,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 1497,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 150117,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 245168,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 1730,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 9945,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 419479,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 102780,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 330483,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 5550,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 131631,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 9994,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 354912,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 341012,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 11826,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 2698,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 66,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 348,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 233063,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 93828,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 525554,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 10975,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 49051,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 97614,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 607,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 9021,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 424,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 1975,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 227348,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 243938,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 11596,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 77875,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 548066,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 10925,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 130150,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 158015,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 62,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 178809,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 6522,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 31442,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 1494,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 75802,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 8090,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 76544,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 71864,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 9530,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 41211,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 11634,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 8427,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 24150,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 250066,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 259316,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 11560,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 10437,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 12207,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 93,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 10466,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 12123,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 5375,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 11497,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 11967,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 82390,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 44629,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 375262,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 11230,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 529216,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 10876,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 9303,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 3604,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 1412,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 295699,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 147441,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 535,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 9064,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 10160,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 9538,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 8764,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 242582,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 428449,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 11549,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 71668,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 10648,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 58,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 68817,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 2742,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 10623,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 505192,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 153158,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 4978,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 184314,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 172533,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 209263,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 121875,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 177572,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 10155,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 15370,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 8592,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 36819,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 11817,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 11006,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 608,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 332,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 98548,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 10972,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 244786,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 419430,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 10720,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 506,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 300668,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 11050,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 10193,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 77948,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 445629,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 286217,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 226486,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 87499,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 209276,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 333385,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 209403,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 49950,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 9626,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 376453,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 931,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 10328,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 12233,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 243940,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 238,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 21734,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 9664,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 10538,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 98566,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 200505,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 262500,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 10731,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 13,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 1439,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 11527,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 10163,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 22586,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 10523,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 449924,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 63493,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 109445,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 4105,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 10494,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 767,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 16899,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 76341,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 10481,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 1694,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 425,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 398175,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 16804,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 57158,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 83,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 550,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 2665,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 49521,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 1894,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 10016,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 198185,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 8409,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 5955,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 206647,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 12160,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 423087,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 1957,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 434555,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 9777,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 9909,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 10152,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 11562,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 812,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 9594,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 449443,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 4961,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 8270,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 12690,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 51300,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 6279,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 402900,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 101,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 11185,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 8392,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 26123,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 1865,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 14072,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 331962,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 6623,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 4244,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 6844,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 400155,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 900,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 4437,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 397,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 44147,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 101173,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 175,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 9879,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 11901,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 9464,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 916,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 12142,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 8987,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 9696,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 10923,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 6878,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 11158,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 9549,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 411,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 257444,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 301,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 166426,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 1891,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 680,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 13576,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 8386,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 9443,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 10577,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 238628,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 193756,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 884,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 49017,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 11566,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 285,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 10823,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 13532,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 17295,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 11782,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 11455,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 460539,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 457136,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 5961,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 184315,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 10843,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 10564,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 38360,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 84287,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 8587,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 1809,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 10760,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 399360,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 9597,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 790,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 11983,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 2454,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 9612,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 12107,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 9087,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 18,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 674,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 1554,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 15159,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 11386,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 119675,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 14574,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 11973,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 228203,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 7548,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 11416,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 458594,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 376565,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 9824,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 85,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 557,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 24438,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 10020,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 177677,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 1613,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 463821,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 18148,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 531,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 4520,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 38363,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 342521,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 11184,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 10956,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 807,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 1552,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 2362,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 4599,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 214756,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 62177,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 216015,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 13250,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 10468,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 12154,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 14620,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 9962,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 500664,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 82690,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 50837,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 9812,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 1023,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 9942,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 10060,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 47971,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 2322,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 24056,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 113833,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 9591,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 9356,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 446807,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 31175,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 10197,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 12155,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 9333,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 631,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 18239,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 9607,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 336050,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 7862,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 9385,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 37414,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 9966,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 10588,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 10069,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 10495,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 19426,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 23706,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 318121,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 780,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 13252,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 486606,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 27583,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 1667,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 9796,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 2830,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 38031,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 11658,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 67660,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 2313,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 9918,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 13067,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 401104,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 2788,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 10757,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 10909,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 7249,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 14292,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 9806,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 13042,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 4477,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 13291,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 49012,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 13785,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 205321,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 14506,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 84306,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 146216,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 73937,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 1710,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 55725,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 11515,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 338970,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 34480,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 10803,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 9542,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 194662,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 446894,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 447332,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 98,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 12877,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 453755,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 4515,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 10488,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 51209,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 24021,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 45657,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 9644,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 13531,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 9272,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 505262,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 568,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 9766,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 447200,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 44945,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 626,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 204,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 10675,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 13944,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 10207,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 537059,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 9566,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 12177,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 11824,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 34769,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 9515,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 11197,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 168259,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 13595,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 5683,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 636,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 26900,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 30197,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 694,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 207703,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 11313,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 372058,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 1958,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 14976,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 321612,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 11374,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 10758,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 14052,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 21641,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 234,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 775,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 26280,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 7863,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 393,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 93456,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 45658,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 491472,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 625,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 11686,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 679,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 350,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 10144,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 246,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 44716,
+            "user_rating": 7
+        },
+        {
+            "movie_id": 640,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 334543,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 460555,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 11894,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 9714,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 11481,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 954,
+            "user_rating": 2
+        },
+        {
+            "movie_id": 97051,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 8491,
+            "user_rating": 8
+        },
+        {
+            "movie_id": 64639,
+            "user_rating": 5
+        },
+        {
+            "movie_id": 33602,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 92591,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 293,
+            "user_rating": 4
+        },
+        {
+            "movie_id": 13156,
+            "user_rating": 10
+        },
+        {
+            "movie_id": 2163,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 18079,
+            "user_rating": 3
+        },
+        {
+            "movie_id": 9749,
+            "user_rating": 6
+        },
+        {
+            "movie_id": 9910,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 5820,
+            "user_rating": 1
+        },
+        {
+            "movie_id": 8046,
+            "user_rating": 9
+        },
+        {
+            "movie_id": 14926,
+            "user_rating": 6
+        }
+    ],
+    "success_code": 1
+}
+
+
+---
+
+POST http://<IP>:8000/ratings
+
+JSON body -->
+
+{
+    "user_id": 0,
+    "movie_id": 10720,
+    "rating": 2
+}
+
+<--
+
+{
+    "message": "",
+    "payload": "",
+    "success_code": 1
+}
+
+---
+
+GET http://<IP>:8000/recommendations?user_id=0
+
+{
+    "message": "",
+    "payload": [
+        299534,
+        485811,
+        498580,
+        24428,
+        399579,
+        424694,
+        487297,
+        515248,
+        122917,
+        471507,
+        491418,
+        440472,
+        543540,
+        383498,
+        615,
+        218043,
+        61012,
+        460885,
+        395990,
+        672,
+        76338,
+        151960,
+        297762,
+        241257,
+        401246,
+        300681,
+        407451,
+        374473,
+        431530,
+        10191,
+        8966,
+        351339,
+        467660,
+        441384,
+        397422,
+        77931,
+        68721,
+        341006,
+        11186,
+        3035,
+        8342,
+        348350,
+        268896,
+        100402,
+        179826,
+        360920,
+        157851,
+        245916,
+        830,
+        1534,
+        3093,
+        9662,
+        280,
+        10497,
+        16608,
+        38543,
+        553141,
+        15789,
+        11051,
+        82702,
+        10057,
+        143,
+        234200,
+        38234,
+        9289,
+        9725,
+        10479,
+        191714,
+        320007,
+        86467,
+        3512,
+        1714,
+        332340,
+        245706,
+        11470,
+        12444,
+        316727,
+        401469,
+        10048,
+        9876,
+        198663,
+        9825,
+        11212,
+        172,
+        675,
+        41602,
+        324670,
+        55301,
+        455207,
+        249,
+        11046,
+        150540,
+        209274,
+        8689,
+        9754,
+        936,
+        438740,
+        65759,
+        10131,
+        606,
+        375315,
+        50725,
+        11137,
+        10756,
+        62046,
+        190469,
+        14536,
+        983,
+        9053,
+        11880,
+        38541,
+        102651,
+        10518,
+        11045,
+        141043,
+        597,
+        336004,
+        181533,
+        11078,
+        2039,
+        56288,
+        228150,
+        5511,
+        365222,
+        3132,
+        84165,
+        33511,
+        11864,
+        427641,
+        1406,
+        8092,
+        10762,
+        68737,
+        335988,
+        8984,
+        336843,
+        3063,
+        862,
+        14636,
+        7300,
+        11260,
+        6687,
+        9728,
+        10414,
+        398818,
+        14013,
+        16642,
+        11929,
+        254128,
+        76757,
+        9410,
+        140420,
+        3085,
+        281338,
+        10122,
+        854,
+        9972,
+        158852,
+        89,
+        11517,
+        11453,
+        241251,
+        526051,
+        58232,
+        2275,
+        940,
+        136,
+        2928,
+        7095,
+        10712,
+        264660,
+        12093,
+        10186,
+        21334,
+        113947,
+        1880,
+        632,
+        857,
+        1280,
+        408,
+        10589,
+        13851,
+        808,
+        8882,
+        586655,
+        82696,
+        14181,
+        329865,
+        11891,
+        126889,
+        1901,
+        103328,
+        302,
+        399055,
+        10403,
+        105,
+        585,
+        6309,
+        9516,
+        10592,
+        2062,
+        9701,
+        9957,
+        347969,
+        13193,
+        11857,
+        13159,
+        13920,
+        2086,
+        10907,
+        13007,
+        634,
+        604,
+        21755,
+        16619,
+        10860
+    ],
+    "success_code": 1
+}

@@ -21,7 +21,7 @@ port = int(os.environ.get("PORT", 8000))
 NUM_USERS = 42
 
 # Enter of movies needed. 20 should be sufficient
-NUM_MOVIES = 20
+NUM_MOVIES = 1000
 
 MOVIE_ID_TO_INDEX_MAP = dict()
 INDEX_TO_MOVIE_ID_MAP = dict()
@@ -74,9 +74,7 @@ def update_rating():
 	movie_id = request_payload['movie_id']
 	rating = request_payload['rating']
 
-	print("Before " + str(user_ratings[user_id, MOVIE_ID_TO_INDEX_MAP[movie_id]]))
 	user_ratings[user_id, MOVIE_ID_TO_INDEX_MAP[movie_id]] = rating
-	print("After " + str(user_ratings[user_id, MOVIE_ID_TO_INDEX_MAP[movie_id]]))
 
 	return jsonify({'success_code': 1, 'message': "", 'payload': ""}), 200
 
@@ -103,7 +101,6 @@ def get_ratings():
 			current_movie['user_rating'] = int(user_ratings[user_id, i])
 			current_user_ratings.append(current_movie)
 
-	print(current_user_ratings)
 	return jsonify({'success_code': 1, 'message': "", 'payload': current_user_ratings })
 
 # ***
@@ -184,7 +181,7 @@ def weekly_movie_refresh():
 	index_tracker_for_recommendation_arr = 0
 	total_movie_count = 0
 
-	for page_id in range(1,2,1):
+	for page_id in range(1,NUM_MOVIES//20 + 1,1):
 
 		print("Processing page " + str(page_id))
 		popular_movies = (requests.get(base_url + str(page_id) + token_string, data=None)).json()
@@ -210,7 +207,6 @@ def weekly_movie_refresh():
 
 	print("Processed " + str(total_movie_count) + " movies")
 
-	print(INDEX_TO_MOVIE_ID_MAP)
 	refresh_recommendations()
 
 
@@ -219,14 +215,14 @@ if __name__ == '__main__':
 	weekly_movie_refresh()
 
 	weekly_movie_update_task = BackgroundScheduler()
-	weekly_movie_update_task.add_job(func=weekly_movie_refresh, trigger="interval", seconds=60)
+	weekly_movie_update_task.add_job(func=weekly_movie_refresh, trigger="interval", seconds=604800)
 	print("Started scheduler for weekly movie updates")
 	weekly_movie_update_task.start()
 
 	# Starts period background task for refreshing recommendations.
 	# Occurs every 5 seconds
 	recommendation_update_task = BackgroundScheduler()
-	recommendation_update_task.add_job(func=refresh_recommendations, trigger="interval", seconds=10)
+	recommendation_update_task.add_job(func=refresh_recommendations, trigger="interval", seconds=86400)
 	print("Started scheduler for updating recommendations")
 	recommendation_update_task.start()
     
